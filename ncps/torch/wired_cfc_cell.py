@@ -4,7 +4,7 @@ import numpy as np
 import torch
 from torch import nn
 
-from . import CfCCell
+from cfc_cell import CfCCell
 from typing import Optional, Union
 
 

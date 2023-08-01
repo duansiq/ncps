@@ -16,8 +16,9 @@ import torch
 from torch import nn
 from typing import Optional, Union
 import ncps
-from . import CfCCell, LTCCell
-from .lstm import LSTMCell
+from cfc_cell import CfCCell
+from ncps.torch.ltc_cell import LTCCell
+from lstm import LSTMCell
 
 
 class LTC(nn.Module):

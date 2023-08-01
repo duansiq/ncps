@@ -9,6 +9,8 @@ import torch
 import torch.utils.data as data
 
 from kerasncp.torch.experimental import CfC, WiredCfC
+#from ncps.torch.cfc import CfC
+#from ncps.torch.wired_cfc_cell import WiredCfCCell
 
 
 # LightningModule for training a RNNSequence module

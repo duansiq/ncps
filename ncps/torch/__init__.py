@@ -17,9 +17,9 @@
 
 
 from ncps.torch.ltc_cell import LTCCell
-from .cfc_cell import CfCCell
-from .wired_cfc_cell import WiredCfCCell
-from .cfc import CfC
-from .ltc import LTC
+from cfc_cell import CfCCell
+from wired_cfc_cell import WiredCfCCell
+from cfc import CfC
+from ltc import LTC
 
 __all__ = ["CfC", "CfCCell", "LTC", "LTCCell", "WiredCfCCell"]
